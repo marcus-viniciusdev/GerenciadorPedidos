@@ -10,6 +10,7 @@ public class Pedido {
     @Id
     private Long id;
     private LocalDate data;
+    private LocalDate dataEntrega;
 
     @ManyToMany
     @JoinTable(
